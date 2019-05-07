@@ -15,3 +15,13 @@ Engenharia de Computação, turma 2018
 
 ### Documentação
 A documentação está em `docs` no repositório.
+
+
+### Links dos Icons
+-https://www.flaticon.com/search?word=headache
+-https://www.flaticon.com/search?word=bacteria
+-https://www.flaticon.com/search?word=denture
+-https://www.flaticon.com/search?word=virus
+-https://www.flaticon.com/search?word=worm
+-https://www.flaticon.com/search?word=bird%20flu
+-https://www.flaticon.com/search?word=healthy
