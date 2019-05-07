@@ -4,15 +4,14 @@
 
 ![](https://media.giphy.com/media/hdev8OfIVgNVu/giphy.gif)
 
+### Integrantes
+Engenharia de Computação, turma 2018
+- Gabriel Braga
+- Gabriel Teston
+- João Victor Batista
+- Leonardo Picoli
+- Lucca Jordão
+- Paulo Pacitti
 
-### Interfaces
-- `IVisualization`:
-  - `public void render()`: renderiza um módulo visual(Java Swing, por exemplo);
-- `IHTTPRequest`:
-  - `public String request(String method, String url, String headers, String body, String auth)`: faz uma request numa API Rest por HTTP;
-  - `public String gsonToStr (Gson gson)`: traduzir um Gson para String;
-- `IWebService`:
-  - `public bool startWebService(url, port)`: conecta e inicia o serviço web;
-  - `public bool closeWebAppointment()`: fecha e desconecta do web service;
-- `IFilterable`:
-  - `public IDataSource filter(IDataSource, String params)`: filtra uma estrutura de dados com base nos parametros;
+### Documentação
+A documentação está em `docs` no repositório.

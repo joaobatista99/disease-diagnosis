@@ -1,4 +1,4 @@
 public interface IWebService {
-  public bool startWebService(url, port);
-  public bool closeWebAppointment();
+  public boolean startWebService(url, port);
+  public boolean closeWebAppointment();
 }
