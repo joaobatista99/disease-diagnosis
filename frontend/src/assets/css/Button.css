@@ -1,0 +1,18 @@
+.Button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 346px;
+  height: 65px;
+  background-color: #1A2A2F;
+  border-radius: 20px;
+}
+
+.Button-title {
+  font-family: 'Lato';
+  color: #F4F3F2;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+}

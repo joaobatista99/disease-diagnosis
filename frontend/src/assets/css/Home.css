@@ -1,0 +1,30 @@
+
+.Home-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #D0FFE3;
+}
+
+.Home-title {
+  margin-top: -10px;
+  margin-bottom: 40px;
+  color: #255235;
+  font-family: 'Lato';
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.Home-hospital-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Home-hospital-image {
+  width: 25%;
+  margin-bottom: 10;
+}
