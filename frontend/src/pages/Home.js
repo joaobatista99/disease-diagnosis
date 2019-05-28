@@ -4,6 +4,7 @@ import hospital from '../assets/images/hospital.png';
 import zombie from '../assets/images/zombie.png';
 import zombies from '../assets/images/zombies.png';
 import Button from '../components/Button';
+import { withRouter } from 'react-router-dom';
 
 class Home extends React.Component {
   render() {
@@ -15,11 +16,11 @@ class Home extends React.Component {
           <img src={hospital} className='Home-hospital-image'/>
           <img src={zombies} className='Home-hospital-image'/>
         </div>
-        <Button onClick='' />
+        <Button onClick={() => this.props.history.push('/consulta')} />
       </div>
     );
 
   }
 }
 
-export default Home;
+export default withRouter(Home);

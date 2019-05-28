@@ -6,6 +6,7 @@
   height: 65px;
   background-color: #1A2A2F;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .Button-title {
