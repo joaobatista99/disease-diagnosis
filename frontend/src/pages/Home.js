@@ -16,7 +16,7 @@ class Home extends React.Component {
           <img src={hospital} className='Home-hospital-image'/>
           <img src={zombies} className='Home-hospital-image'/>
         </div>
-        <Button onClick={() => this.props.history.push('/consulta')} />
+        <Button label="COMEÇAR" onClick={() => this.props.history.push('/consulta')} />
       </div>
     );
 

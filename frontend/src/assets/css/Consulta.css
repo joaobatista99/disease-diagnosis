@@ -3,7 +3,45 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: #D0FFE3;
+}
+
+.Consulta-title {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #255235;
+  font-family: 'Lato';
+  font-size: 72px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.Consulta-content {
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Consulta-input-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Consulta-input {
+  font-size: 30px;
+  width: 779px;
+  height: 376px;
+  left: 517px;
+  top: 231px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.Consulta-doctor-image {
+  width: 30%;
+  margin-bottom: 10;
 }

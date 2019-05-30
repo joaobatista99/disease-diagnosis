@@ -8,8 +8,9 @@ class App extends React.Component {
     return(
       <BrowserRouter>
         <Switch>
-          <Route path='/home' component={Home} />
-          <Route path='/consulta' component={Consulta} />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/home' component={Home} />
+          <Route exact path='/consulta' component={Consulta} />
         </Switch>
       </BrowserRouter>
     );
