@@ -8,7 +8,6 @@ public class Main {
 
     public static void main(String[] args) {
         String url = "http://0.0.0.0:5000/";
-        String response;
 
         Map<String, String> parameters = new HashMap<String, String>();
         parameters.put("parameter1", "value1");
@@ -19,14 +18,22 @@ public class Main {
         auth.put("parameter1", "value1");
 
         Map<String, String> headers = new HashMap<String, String>();
-        headers.put("parameter1", "value1");
+        headers.put("Content-Type", "application/json");
+
+        String body = "{'asda':'asdas'}";
 
         HTTPRequest h = new HTTPRequest();
         try{
-            response = h.GET(url, parameters, auth, headers);
+            h.GET(url, parameters, auth, headers);
         }catch(Exception e){
             System.out.println(e);
         }
-        //System.out.println(response);
+        System.out.println();
+        try{
+            h.POST(url, parameters, auth, headers, body);
+        }catch(Exception e){
+            System.out.println(e);
+        }
+
     }
 }
