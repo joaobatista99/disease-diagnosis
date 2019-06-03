@@ -1,13 +1,16 @@
-package gang.comp;
+package gang.comp.httprequest;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.net.*;
+import java.net.Authenticator;
+import java.net.HttpURLConnection;
+import java.net.PasswordAuthentication;
+import java.net.URL;
 import java.util.Map;
 
 
-public class HTTPRequest implements IHTTPRequest{
+public class HTTPRequest implements IHTTPRequest {
     public String POST(String url_string, Map parameters, Map auth, Map<String,String> headers, String body) throws Exception{
         StringBuilder result = new StringBuilder();
         URL url = new URL(url_string +"?"+

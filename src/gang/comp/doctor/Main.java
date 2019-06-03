@@ -1,4 +1,4 @@
-package gang.comp;
+package gang.comp.doctor;
 
 public class Main {
     public static void main(String[] args) {

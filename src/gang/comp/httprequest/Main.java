@@ -1,4 +1,4 @@
-package gang.comp;
+package gang.comp.httprequest;
 
 
 import java.util.HashMap;

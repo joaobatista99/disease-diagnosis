@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Doctor/Doctor.iml" filepath="$PROJECT_DIR$/Doctor/Doctor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HTTPRequest/HTTPRequest.iml" filepath="$PROJECT_DIR$/HTTPRequest/HTTPRequest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NPL/NPL.iml" filepath="$PROJECT_DIR$/NPL/NPL.iml" />
-      <module fileurl="file://$PROJECT_DIR$/REST_API/REST_API.iml" filepath="$PROJECT_DIR$/REST_API/REST_API.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/disease-diagnosis.iml" filepath="$PROJECT_DIR$/.idea/disease-diagnosis.iml" />
     </modules>
   </component>

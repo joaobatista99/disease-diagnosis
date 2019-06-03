@@ -1,8 +1,5 @@
-package gang.comp;
+package gang.comp.api;
 
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class Main {
 

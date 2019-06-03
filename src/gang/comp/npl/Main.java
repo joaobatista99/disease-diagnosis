@@ -1,4 +1,4 @@
-package gang.comp;
+package gang.comp.npl;
 
 public class Main {
     public static void main(String[] args) {
