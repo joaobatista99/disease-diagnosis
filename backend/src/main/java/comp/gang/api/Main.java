@@ -1,7 +1,9 @@
-package gang.comp.npl;
+package comp.gang.api;
+
 
 public class Main {
+
     public static void main(String[] args) {
-        //faz os codigos aqui e roda essa classe
+        REST_API.startServer("asda",8000);
     }
 }

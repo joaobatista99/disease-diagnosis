@@ -1,4 +1,4 @@
-package gang.comp.api;
+package comp.gang.api;
 
 public interface IREST_API {
 }

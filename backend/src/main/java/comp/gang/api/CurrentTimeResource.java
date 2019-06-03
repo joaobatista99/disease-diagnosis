@@ -1,4 +1,4 @@
-package gang.comp.api;
+package comp.gang.api;
 
 import org.restlet.representation.Representation;
 import org.restlet.representation.StringRepresentation;
