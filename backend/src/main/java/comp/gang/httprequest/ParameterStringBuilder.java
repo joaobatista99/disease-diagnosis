@@ -1,4 +1,4 @@
-package comp.gang.npl;
+package comp.gang.httprequest;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
