@@ -1,6 +1,7 @@
 package comp.gang.npl;
 
 // Imports the Google Cloud client library
+/*
 import com.google.cloud.language.v1.Document;
 import com.google.cloud.language.v1.Document.Type;
 import com.google.cloud.language.v1.LanguageServiceClient;
@@ -26,9 +27,8 @@ public class Main {
             System.out.println(e.toString());
         }
     }
-}
+}*/
 
-/*
 import java.util.HashMap;
 import java.util.Map;
 
@@ -40,7 +40,8 @@ public class Main {
         Map<String, String> parameters = new HashMap<String, String>();
         parameters.put("parameter1", "value1");
         parameters.put("parameter2", "value2");
-        parameters.put("parameter3", "value3");;
+        parameters.put("parameter3", "value3");
+        ;
 
         Map<String, String> auth = new HashMap<String, String>();
         auth.put("parameter1", "value1");
@@ -51,18 +52,17 @@ public class Main {
         String body = "{'asda':'asdas'}";
 
         HTTPRequest h = new HTTPRequest();
-        try{
+        try {
             h.GET(url, parameters, auth, headers);
-        }catch(Exception e){
+        } catch (Exception e) {
             System.out.println(e);
         }
         System.out.println();
-        try{
+        try {
             h.POST(url, parameters, auth, headers, body);
-        }catch(Exception e){
+        } catch (Exception e) {
             System.out.println(e);
         }
 
     }
 }
- */
