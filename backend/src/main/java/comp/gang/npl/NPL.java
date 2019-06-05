@@ -5,7 +5,7 @@ import com.google.cloud.language.v1.LanguageServiceClient;
 import com.google.cloud.language.v1.Sentiment;
 
 public class NPL {
-    public boolean sentimentInfo(String text) throws Exception {
+    public boolean sense(String text) throws Exception {
         try {
 
             LanguageServiceClient language = LanguageServiceClient.create();

@@ -12,6 +12,6 @@ public class Main {
         // Instantiates a client
         NPL teste = new NPL();
 
-        System.out.println(teste.sentimentInfo("Não senti nada."));
+        System.out.println(teste.sense("Não senti nada."));
     }
 }
