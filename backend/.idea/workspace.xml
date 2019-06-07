@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="009aa8af-8163-4893-bf05-ef50c103572f" name="Default Changelist" comment="">
+=======
+    <list default="true" id="c19fffb9-009d-46f5-ad68-7102c4400f0c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> Ambiente de backend e link com o frontend.
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +20,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -112,60 +121,23 @@
       <replace>indSymptonToAsk</replace>
     </replaceStrings>
   </component>
+=======
+>>>>>>> Ambiente de backend e link com o frontend.
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/npl/HTTPRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/doctor/DataSetComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/doctor/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/npl/NPL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/npl/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/doctor/Doctor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/api/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/api/Greeting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/api/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/api/GreetingController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/api/NextQuestionController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/api/GenericResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/api/AnswerQuestion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/api/NextQuestion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/api/AnswerQuestionController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/api/Diagnosis.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comp/gang/api/NewAppontimentControler.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="disease-diagnosis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="disease-diagnosis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="714" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,40 +145,59 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane">
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+>>>>>>> Ambiente de backend e link com o frontend.
         <subPane>
           <expand>
             <path>
-              <item name="disease-diagnosis" type="58d84e3e:PackageViewProjectNode" />
-              <item name="disease-diagnosis" type="616d4139:PackageViewModuleNode" />
+              <item name="disease-diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="disease-diagnosis" type="58d84e3e:PackageViewProjectNode" />
-              <item name="disease-diagnosis" type="616d4139:PackageViewModuleNode" />
-              <item name="comp.gang" type="1f31426a:PackageElementNode" />
+              <item name="disease-diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="disease-diagnosis" type="58d84e3e:PackageViewProjectNode" />
-              <item name="disease-diagnosis" type="616d4139:PackageViewModuleNode" />
-              <item name="comp.gang" type="1f31426a:PackageElementNode" />
-              <item name="api" type="1f31426a:PackageElementNode" />
+              <item name="disease-diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="disease-diagnosis" type="58d84e3e:PackageViewProjectNode" />
-              <item name="disease-diagnosis" type="616d4139:PackageViewModuleNode" />
-              <item name="comp.gang" type="1f31426a:PackageElementNode" />
-              <item name="doctor" type="1f31426a:PackageElementNode" />
+              <item name="disease-diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="disease-diagnosis" type="58d84e3e:PackageViewProjectNode" />
-              <item name="disease-diagnosis" type="616d4139:PackageViewModuleNode" />
-              <item name="comp.gang" type="1f31426a:PackageElementNode" />
-              <item name="npl" type="1f31426a:PackageElementNode" />
+              <item name="disease-diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disease-diagnosis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gang" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,29 +254,9 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+=======
+>>>>>>> Ambiente de backend e link com o frontend.
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ACTIVE_CLOUD_PROJECT_ACCOUNT" value="l220090@dac.unicamp.br" />
-    <property name="ACTIVE_CLOUD_PROJECT_ID" value="disease-diagnosi-1559583780737" />
-    <property name="ACTIVE_CLOUD_PROJECT_NAME" value="Disease Diagnosis" />
-    <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="985157095114" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.123304546" />
-    <property name="project.structure.side.proportion" value="0.14084506" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="comp.gang.doctor" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/comp/gang/npl" />
-      <recent name="$PROJECT_DIR$/src/main/java/comp/gang/api" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -299,28 +270,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comp.gang.api.Application" />
       <module name="disease-diagnosis" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comp.gang.doctor.Main" />
-      <module name="backend" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="GOOGLE_CLOUD_PROJECT" value="disease-diagnosi-1559583780737" />
-        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="$USER_HOME$/tmp/google/Disease Diagnosis-88abd5e622db.json" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="comp.gang.npl.Main" />
-      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp.gang.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -328,8 +287,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -338,27 +295,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="009aa8af-8163-4893-bf05-ef50c103572f" name="Default Changelist" comment="" />
-      <created>1559904327371</created>
+      <changelist id="c19fffb9-009d-46f5-ad68-7102c4400f0c" name="Default Changelist" comment="" />
+      <created>1559913048223</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559904327371</updated>
+      <updated>1559913048223</updated>
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2291000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -397,19 +343,33 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+=======
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28082192" />
+>>>>>>> Ambiente de backend e link com o frontend.
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3299363" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3299363" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -651,5 +611,8 @@
         </settings>
       </state>
     </states>
+=======
+    </layout>
+>>>>>>> Ambiente de backend e link com o frontend.
   </component>
 </project>
