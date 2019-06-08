@@ -15,10 +15,13 @@ public class NPL {
 
             Sentiment sentiment = language.analyzeSentiment(doc).getDocumentSentiment();
 
+            /*
             System.out.printf("Text: %s%n", text);
             System.out.printf("Sentiment: %s, %s%n", sentiment.getScore(), sentiment.getMagnitude());
 
-            return sentiment.getScore() > 0.1;
+             */
+
+            return sentiment.getScore() >= 0.0;
 
         } catch (Exception e) {
             System.out.println(e.toString());

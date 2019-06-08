@@ -5,13 +5,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Doctor {
-    private String []   symptons; // vetor dos possíves sintomas. Ex.: Paralisia, Lingua Amarela, etc.
-    private String [][] diagnosis; // matriz dos sintomas e seus respectivos diagnósticos seguindo a ordem do vetor de symptons
+    private String []   symptoms; // vetor dos possíves sintomas. Ex.: Paralisia, Lingua Amarela, etc.
+    private String [][] diagnosis; // matriz dos sintomas e seus respectivos diagnósticos seguindo a ordem do vetor de symptoms
 
     private int [] possibleDiagnosis; // vetor com os indices (da matriz diagnosis) dos possíveis diagnósticos
     private int lenPossibleDiagnosis; // tamanho do vetor de possibleDiagnosis
 
-    private int indSymptonToAsk; // inteiro que indica qual sympton está sendo perguntado ao paciente
+    private int indSymptomToAsk; // inteiro que indica qual symptom está sendo perguntado ao paciente
 
     private NPL patientTranslator; // objeto que usa linguagem natural para interpretar a resposta do paciente;
 
@@ -19,7 +19,7 @@ public class Doctor {
     public Doctor() {
         initFromCSV("csv/zombie-health-new-cases500.csv");
 
-        this.indSymptonToAsk = filterDiagnosisAndCalcNextBest(-1, true);
+        this.indSymptomToAsk = filterDiagnosisAndCalcNextBest(-1, true);
 
         this.patientTranslator = new NPL();
     }
@@ -30,7 +30,7 @@ public class Doctor {
         DataSetComponent dsc = new DataSetComponent();
         dsc.setDataSource("csv/zombie-health-new-cases500.csv");
 
-        this.symptons = dsc.requestAttributes();
+        this.symptoms = dsc.requestAttributes();
         this.diagnosis = dsc.requestInstances();
         this.lenPossibleDiagnosis = this.diagnosis.length;
         this.possibleDiagnosis = new int [this.lenPossibleDiagnosis];
@@ -42,27 +42,27 @@ public class Doctor {
 
     // atualiza os possibleDiseases a partir do sintoma que se perguntou ao paciente e
     // calcula e retorna qual é o melhor próx sintoma a se perguntar, retorna 1 caso não há mais o q perguntar
-    // se sympton == -1 indica que é a primeira vez que a busca pela melhor pergunta está sendo feita
-    private int filterDiagnosisAndCalcNextBest(int sympton, boolean isFeeling) {
+    // se symptom == -1 indica que é a primeira vez que a busca pela melhor pergunta está sendo feita
+    private int filterDiagnosisAndCalcNextBest(int symptom, boolean isFeeling) {
         int newLenPossibleDiagnosis = 0;
 
         // vetor que conta quantos dos diagnósticos estão sentindo determinado sintoma
         // -1 pois o ultimo eh o diagnśotico e não um sintoma
         // vetor de inteiros já inicializados com zeros
-        int[] countSymptons = new int[this.symptons.length - 1];
+        int[] countSymptoms = new int[this.symptoms.length - 1];
 
         for (int i = 0;i < this.lenPossibleDiagnosis;i++) {
             int indCurrentDiagnose = this.possibleDiagnosis[i];
-            String [] currentSymptons = this.diagnosis[indCurrentDiagnose];
+            String [] currentSymptoms = this.diagnosis[indCurrentDiagnose];
 
             // se o paciente está sentindo o sintoma, ele continua no vetor de possibleDiagnosis
-            if (sympton == -1 || currentSymptons[sympton].equals("1") == isFeeling) {
+            if (symptom == -1 || currentSymptoms[symptom].equals("1") == isFeeling) {
                 this.possibleDiagnosis[newLenPossibleDiagnosis] = indCurrentDiagnose;
                 newLenPossibleDiagnosis++;
 
-                for (int j = 0;j < countSymptons.length;j++) {
+                for (int j = 0;j < countSymptoms.length;j++) {
                     // se o sintoma está sendo sentido no diagnóstico, ele é incrementado
-                    countSymptons[j] += currentSymptons[j].equals("1") ? 1 : 0;
+                    countSymptoms[j] += currentSymptoms[j].equals("1") ? 1 : 0;
                 }
             }
         }
@@ -70,40 +70,40 @@ public class Doctor {
         this.lenPossibleDiagnosis = newLenPossibleDiagnosis;
 
         // calcula-se qual é o sintoma que tem uma razão (entre sentir ou não) mais próxima de 0.5 dos diagnósticos
-        int nextSympton = 0;
+        int nextSymptom = 0;
 
-        boolean onlyOneSympton = countSymptons[0] == 0 || countSymptons[0] == newLenPossibleDiagnosis;
-        double ratio = onlyOneSympton ? 0 : (float) countSymptons[0] / newLenPossibleDiagnosis;
+        boolean onlyOneSymptom = countSymptoms[0] == 0 || countSymptoms[0] == newLenPossibleDiagnosis;
+        double ratio = onlyOneSymptom ? 0 : (float) countSymptoms[0] / newLenPossibleDiagnosis;
         double smallerAprox = Math.abs(0.5 - ratio);
-        boolean diagnoseReady = onlyOneSympton;
+        boolean diagnoseReady = onlyOneSymptom;
 
-        for (int i = 1;i < countSymptons.length;i++) {
-            // tem apenas um sintoma para todos os diagnósticos apresentados
-            onlyOneSympton = countSymptons[i] == 0 || countSymptons[i] == newLenPossibleDiagnosis;
+        for (int i = 1;i < countSymptoms.length;i++) {
+            // tem apenas um sintoma para todos os diagnósticos apresentados ou tudo true ou tudo false
+            onlyOneSymptom = countSymptoms[i] == 0 || countSymptoms[i] == newLenPossibleDiagnosis;
 
-            ratio = onlyOneSympton ? 0 : (float) countSymptons[i] / newLenPossibleDiagnosis;
+            ratio = onlyOneSymptom ? 0 : (float) countSymptoms[i] / newLenPossibleDiagnosis;
             double aprox = Math.abs(0.5 - ratio);
 
-            diagnoseReady &= onlyOneSympton;
+            diagnoseReady &= onlyOneSymptom;
 
             if (aprox < smallerAprox) {
                 smallerAprox = aprox;
-                nextSympton = i;
+                nextSymptom = i;
             }
         }
 
-        return diagnoseReady ? -1 : nextSympton;
+        return diagnoseReady ? -1 : nextSymptom;
     }
 
-    private String questionFromIndSympton (int indSympton) {
-        return "Você está sentindo " + this.symptons[indSympton] + "?";
+    private String questionFromIndSymptom (int indSymptom) {
+        return "Você está sentindo " + this.symptoms[indSymptom] + "?";
     }
 
     private String getBestDiagnosis() {
         Map<String, Integer> dic = new HashMap<String, Integer>();
 
         for (int i = 0;i < this.lenPossibleDiagnosis;i++) {
-            String diagnosis = this.diagnosis[this.possibleDiagnosis[i]][this.symptons.length - 1];
+            String diagnosis = this.diagnosis[this.possibleDiagnosis[i]][this.symptoms.length - 1];
             if (!dic.containsKey(diagnosis)) {
                 dic.put(diagnosis, 0);
             } else {
@@ -126,17 +126,17 @@ public class Doctor {
     }
 
     public boolean hasQuestions () {
-        return this.indSymptonToAsk != -1;
+        return this.indSymptomToAsk != -1;
     }
 
     public String nextQuestion () {
-        return questionFromIndSympton(this.indSymptonToAsk);
+        return questionFromIndSymptom(this.indSymptomToAsk);
     }
 
     public void answerQuestion (String answer) {
         try {
             boolean feeling = patientTranslator.sense(answer);
-            this.indSymptonToAsk = filterDiagnosisAndCalcNextBest(this.indSymptonToAsk, feeling);
+            this.indSymptomToAsk = filterDiagnosisAndCalcNextBest(this.indSymptomToAsk, feeling);
         } catch (Exception e) {
             System.out.println("Erro com NPL");
             e.printStackTrace();
@@ -144,6 +144,16 @@ public class Doctor {
     }
 
     public String getDiagnosis () {
+        for (int i = 0; i < this.lenPossibleDiagnosis; i++) {
+            String strDiagnose = "";
+
+            for (int j = 0;j < 9;j++) {
+                strDiagnose += this.diagnosis[this.possibleDiagnosis[i]][j] + ", ";
+            }
+
+            System.out.println(strDiagnose);
+        }
+
         return getBestDiagnosis();
     }
 }

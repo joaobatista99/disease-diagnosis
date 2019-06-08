@@ -12,6 +12,10 @@ public class Main {
         // Instantiates a client
         NPL teste = new NPL();
 
-        System.out.println(teste.sense("Não senti nada."));
+        String [] s = {"Não senti nada.", "Não senti", "Não", "Nada", "Sim, senti um pouco", "Sim, senti muito", "Sim", "Sim!", "Com certeza", "Senti um pouco dor de cabeça", "Ontem eu senti muita dor de cabeça, mas hoje não senti nada", "Estava sentindo, mas melhorei então estou bem com relação a dor de cabeça"};
+
+        for (String str : s) {
+            System.out.println(str + ": " + Boolean.toString(teste.sense(str)));
+        }
     }
 }
