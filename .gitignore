@@ -11,7 +11,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -29,8 +28,6 @@ hs_err_pid*
 node_modules/
 
 # IntelliJ
-backend/.idea/**
-backend/.idea/
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
