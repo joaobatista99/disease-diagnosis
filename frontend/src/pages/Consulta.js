@@ -18,15 +18,20 @@ class Consulta extends React.Component {
 
   componentDidMount(){
     axios.get("http://localhost:8080/newappointment").then(res => {
-      this.setState({ question: res.body.question });
       console.log(res);
+      this.setState({ question: res.data.question });
     });
   }
 
   getNextQuestion(){
-    let params = { answer: this.answer };
+    let params = { answer: this.state.input };
+    this.setState({ answer: "" });
     axios.get("http://localhost:8080/answerquestion", params).then(res => {
-      this.setState({ question: res.question });
+      console.log(res);
+      if(res.data.diagnosis != undefined)
+        this.props.history.push({ pathname: "/resultado", state: { diagnosis: res.data.diagnosis }});
+      else
+        this.setState({ question: res.data.question });
     });
   }
 
@@ -34,12 +39,12 @@ class Consulta extends React.Component {
     return (
       <div className='Consulta-container'>
         <p className='Consulta-title'>Consulta</p>
-        <div class='Consulta-content'>
+        <div className='Consulta-content'>
           <img className='Consulta-doctor-image' src={doctor} />
           <div className="Consulta-input-div">
             <p className="Consulta-pergunta">{this.state.question}</p>
-            <textarea className='Consulta-input' type='textarea' />
-            <Button onClick={this.getNextQuestion} label="CONCLUIR" />
+            <textarea value={this.state.answer} onChange={(e) => this.setState({ answer: e.target.event })} className='Consulta-input' type='textarea' />
+            <Button onClick={this.getNextQuestion} label="PRÓXIMO" />
           </div>
         </div>
       </div>
