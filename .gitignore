@@ -29,6 +29,7 @@ hs_err_pid*
 node_modules/
 
 # IntelliJ
+backend/.idea/**
 backend/.idea/
 .idea/**/workspace.xml
 .idea/**/tasks.xml
