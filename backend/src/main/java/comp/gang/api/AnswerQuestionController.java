@@ -1,5 +1,7 @@
 package comp.gang.api;
 
+import jsmaiorjava.implementations.Prontuario;
+import jsmaiorjava.implementations.ZumbiTwittero;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -17,7 +19,13 @@ public class AnswerQuestionController {
         if(doctor.hasQuestions()) {
             return new NextQuestion(doctor.nextQuestion());
         }else{
-            return new Diagnosis(doctor.getDiagnosis());
+            String diagnose = doctor.getDiagnosis();
+
+            /*Uso do componente do zumbi twittero*/
+            ZumbiTwittero zumbiTwittero = new ZumbiTwittero(new Prontuario(diagnose, "Paciente do Hospital CompGang", "Doutor do hospital CompGang"));
+            zumbiTwittero.twittar();
+
+            return new Diagnosis(diagnose);
         }
     }
 }

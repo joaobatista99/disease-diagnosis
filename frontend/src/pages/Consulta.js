@@ -24,9 +24,9 @@ class Consulta extends React.Component {
   }
 
   getNextQuestion(){
-    let params = { answer: this.state.input };
+    let paramsAnswer = { answer: this.state.answer };
     this.setState({ answer: "" });
-    axios.get("http://localhost:8080/answerquestion", params).then(res => {
+    axios.get("http://localhost:8080/answerquestion", {params: paramsAnswer}).then(res => {
       console.log(res);
       if(res.data.diagnosis != undefined)
         this.props.history.push({ pathname: "/resultado", state: { diagnosis: res.data.diagnosis }});
@@ -43,7 +43,7 @@ class Consulta extends React.Component {
           <img className='Consulta-doctor-image' src={doctor} />
           <div className="Consulta-input-div">
             <p className="Consulta-pergunta">{this.state.question}</p>
-            <textarea value={this.state.answer} onChange={(e) => this.setState({ answer: e.target.event })} className='Consulta-input' type='textarea' />
+            <textarea value={this.state.answer} onChange={(e) => this.setState({ answer: e.target.value })} className='Consulta-input' type='textarea' />
             <Button onClick={this.getNextQuestion} label="PRÓXIMO" />
           </div>
         </div>
