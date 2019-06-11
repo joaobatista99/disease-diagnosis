@@ -16,6 +16,11 @@ Engenharia de Computação, turma 2018
 ### Documentação
 A documentação está em `docs` no repositório.
 
+### Instalação
+- Frontend:
+  - `cd frontend`
+  - `npm install`
+  - `npm start` e prontinho! :fire:
 
 ### Links dos Icons
 - https://www.flaticon.com/search?word=headache
