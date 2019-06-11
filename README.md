@@ -21,6 +21,14 @@ A documentação está em `docs` no repositório.
   - `cd frontend`
   - `npm install`
   - `npm start` e prontinho! :fire:
+- Backend:
+  - `Instalar IntelliJ`
+  - `Na opção Importar Projeto do IntelliJ, selecione a pasta 'backend'`
+  - `Selecione a opção 'Import project from external module' e selecione Maven`
+  - `Na janela 'Import project from Maven', selecione as opções: 'Search for projects recursively' e 'Import Maven projects automatically'`
+  - `Selecione o sdk (de preferência)`
+  - `Na aba de estrutura do projeto, selecione src/main/java/comp.gang/api e execute o 'Application'`
+  - `Observação: Para a API de linguagem naturais funcionar, é necessário setar a variável de ambiente GOOGLE_APPLICATION_CREDENTIALS para o caminho até o seu arquivo de credenciais do google .json`
 
 ### Links dos Icons
 - https://www.flaticon.com/search?word=headache
