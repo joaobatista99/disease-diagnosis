@@ -4,7 +4,7 @@ import comp.gang.npl.NPL;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Doctor {
+public class Doctor implements IDoctor {
     private String []   symptoms; // vetor dos possíves sintomas. Ex.: Paralisia, Lingua Amarela, etc.
     private String [][] diagnosis; // matriz dos sintomas e seus respectivos diagnósticos seguindo a ordem do vetor de symptoms
 

@@ -38,3 +38,6 @@ A documentação está em `docs` no repositório.
 - https://www.flaticon.com/search?word=worm
 - https://www.flaticon.com/search?word=bird%20flu
 - https://www.flaticon.com/search?word=healthy
+
+### Links para Apresentação
+- https://docs.google.com/presentation/d/1URfAQfebXYE0_yxEB5piH1SEGgdYooQvuqQCzU-0zbE/edit?usp=sharing
