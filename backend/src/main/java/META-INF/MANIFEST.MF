@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Class-Path: google-api-client-1.28.0.jar spring-webmvc-5.1.6.RELEASE.j
+ ar google-cloud-language-1.74.0.jar google-cloud-storage-1.74.0.jar h
+ ttpcore-4.4.11.jar guava-27.1-android.jar threetenbp-1.3.3.jar google
+ -http-client-appengine-1.29.1.jar httpclient-4.5.8.jar gax-grpc-1.44.
+ 0.jar protobuf-java-3.7.1.jar classmate-1.4.0.jar proto-google-cloud-
+ language-v1beta2-0.57.0.jar google-http-client-1.29.1.jar tomcat-embe
+ d-websocket-9.0.17.jar jackson-datatype-jdk8-2.9.8.jar google-auth-li
+ brary-credentials-0.15.0.jar jackson-module-parameter-names-2.9.8.jar
+  spring-boot-starter-tomcat-2.1.4.RELEASE.jar gax-httpjson-0.61.0.jar
+  jackson-annotations-2.9.0.jar spring-beans-5.1.6.RELEASE.jar spring-
+ boot-starter-web-2.1.4.RELEASE.jar google-cloud-core-1.74.0.jar sprin
+ g-expression-5.1.6.RELEASE.jar failureaccess-1.0.1.jar checker-compat
+ -qual-2.5.2.jar proto-google-common-protos-1.15.0.jar jul-to-slf4j-1.
+ 7.26.jar grpc-protobuf-1.19.0.jar grpc-grpclb-1.19.0.jar spring-boot-
+ starter-2.1.4.RELEASE.jar opencensus-api-0.19.2.jar animal-sniffer-an
+ notations-1.17.jar org.restlet-2.0.14.jar commons-codec-1.11.jar goog
+ le-api-services-storage-v1-rev20190426-1.28.0.jar google-cloud-core-h
+ ttp-1.74.0.jar proto-google-iam-v1-0.12.0.jar snakeyaml-1.23.jar js_m
+ aior_java.jar grpc-core-1.19.0.jar protobuf-java-util-3.7.1.jar openc
+ ensus-contrib-grpc-metrics-0.19.2.jar spring-core-5.1.6.RELEASE.jar g
+ rpc-auth-1.19.0.jar commons-lang3-3.8.1.jar javax.annotation-api-1.3.
+ 2.jar grpc-context-1.19.0.jar jboss-logging-3.3.2.Final.jar google-ht
+ tp-client-jackson2-1.29.0.jar tomcat-embed-el-9.0.17.jar google-auth-
+ library-oauth2-http-0.15.0.jar log4j-to-slf4j-2.11.2.jar jackson-data
+ bind-2.9.8.jar spring-boot-starter-logging-2.1.4.RELEASE.jar j2objc-a
+ nnotations-1.1.jar org.osgi.core-4.0.0.jar spring-boot-autoconfigure-
+ 2.1.4.RELEASE.jar jackson-core-2.9.8.jar grpc-stub-1.19.0.jar gson-2.
+ 8.5.jar api-common-1.8.1.jar log4j-api-2.11.2.jar jackson-datatype-js
+ r310-2.9.8.jar hibernate-validator-6.0.16.Final.jar grpc-netty-shaded
+ -1.19.0.jar spring-jcl-5.1.6.RELEASE.jar spring-web-5.1.6.RELEASE.jar
+  google-cloud-core-grpc-1.74.0.jar slf4j-api-1.7.26.jar gax-1.44.0.ja
+ r spring-context-5.1.6.RELEASE.jar spring-aop-5.1.6.RELEASE.jar grpc-
+ alts-1.19.0.jar jsr305-3.0.2.jar logback-core-1.2.3.jar google-http-c
+ lient-apache-2.0.0.jar tomcat-embed-core-9.0.17.jar validation-api-2.
+ 0.1.Final.jar logback-classic-1.2.3.jar error_prone_annotations-2.2.0
+ .jar spring-boot-starter-json-2.1.4.RELEASE.jar grpc-protobuf-lite-1.
+ 19.0.jar listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.j
+ ar google-oauth-client-1.28.0.jar opencensus-contrib-http-util-0.19.2
+ .jar proto-google-cloud-language-v1-1.56.0.jar spring-boot-2.1.4.RELE
+ ASE.jar
+Main-Class: comp.gang.api.Application
+

@@ -16,19 +16,17 @@ Engenharia de Computação, turma 2018
 ### Documentação
 A documentação está em `docs` no repositório.
 
-### Instalação
+### Execução
 - Frontend:
   - `cd frontend`
   - `npm install`
   - `npm start` e prontinho! :fire:
 - Backend:
-  - `Instalar IntelliJ`
-  - `Na opção Importar Projeto do IntelliJ, selecione a pasta 'backend'`
-  - `Selecione a opção 'Import project from external module' e selecione Maven`
-  - `Na janela 'Import project from Maven', selecione as opções: 'Search for projects recursively' e 'Import Maven projects automatically'`
-  - `Selecione o sdk (de preferência)`
-  - `Na aba de estrutura do projeto, selecione src/main/java/comp.gang/api e execute o 'Application'`
-  - `Observação: Para a API de linguagem naturais funcionar, é necessário setar a variável de ambiente GOOGLE_APPLICATION_CREDENTIALS para o caminho até o seu arquivo de credenciais do google .json`
+  - `Inclua a variável de ambiente GOOGLE_APPLICATION_CREDENTIALS (pelo terminal) para o caminho até o seu arquivo de credenciais do google .json para que a API de linguagem natural funcione`
+  - `Vá até a pasta backend/target/ e execute o java -jar disease-diagnosis-1.0.jar`
+
+### Observações
+- `O componente do Twitter utilizado é um .jar que se encontra em backend/lib/js_maior_java.jar. Para que o componente funcione é preciso importá-lo ao projeto no IntelliJ`
 
 ### Links dos Icons
 - https://www.flaticon.com/search?word=headache

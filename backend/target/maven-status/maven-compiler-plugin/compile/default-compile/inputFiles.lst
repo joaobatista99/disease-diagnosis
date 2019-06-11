@@ -1,0 +1,16 @@
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/api/Application.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/npl/NPL.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/npl/Main.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/httprequest/IHTTPRequest.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/api/NextQuestion.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/api/AnswerQuestionController.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/doctor/DataSetComponent.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/api/GenericResponse.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/api/NextQuestionController.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/httprequest/HTTPRequest.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/doctor/Doctor.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/doctor/IDoctor.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/httprequest/ParameterStringBuilder.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/doctor/Main.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/api/NewAppontimentControler.java
+/home/leonardo/Documents/unichamps/mc322/disease-diagnosis/backend/src/main/java/comp/gang/api/Diagnosis.java
